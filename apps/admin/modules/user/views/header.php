@@ -25,11 +25,6 @@ $(function(){
         search_input.addClass('form-control input-small')
         search_input.css('width', '250px')
 
-        
-        
-       // search_input.css('position', 'absolute')
-        //search_input.css('right', '100px')
- 
         // SEARCH CLEAR - Use an Icon
         var clear_input = datatable.closest('.dataTables_wrapper').find('div[id$=_filter] a');
         clear_input.html('<i class="icon-remove-circle icon-large"></i>')
